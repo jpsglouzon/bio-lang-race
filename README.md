@@ -18,7 +18,7 @@ Using public GitHub repositories tagged with bioinformatics-related topics, we t
 ### Key Findings:
 
 - 2008–2016: **C and Java dominate** bioinformatics tooling
-- 2017:** R becomes the most popular language**
+- 2017: **R becomes the most popular language**
 - 2018–today: **Python clearly leads and remains dominant**
 
 The **rise of Python** closely follows the **growth of machine learning, deep learning, and protein structure analysis**, supported by widely used libraries such as scikit-learn, PyTorch, TensorFlow, and Biopython.
@@ -78,6 +78,8 @@ This perspective aligns with broader analyses of global programming language tre
 - Only the primary programming language of each repository was considered. This coarse-grained approach does not capture projects that rely on multiple languages.
 
 - GitHub’s search API limits results to 100 repositories per query. While including only the 100 most starred repositories per year provides a reasonable approximation for identifying popular languages, more comprehensive data could improve statistical precision.
+
+- For a more complete picture, other data sources like Stack Overflow, publications, or job postings could be analyzed to capture developer activity and programming language usage.
 
 ## References
 
