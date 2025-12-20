@@ -3,10 +3,10 @@
 > **Programming language dominance in bioinformatics seems to closely follows methodological shifts in the field.**
 > **Python’s rise reflects its central role in modern data-driven and AI-enabled biology.**
 
-<video src="https://github.com/user-attachments/assets/136bc5ff-9a33-496c-9dc3-4470f131d466" width="352" height="720"></video>
+<video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" width="352" height="720"></video>
 Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data from 2008 to 2013
 
-<video src="https://github.com/user-attachments/assets/ace3a8e9-4e68-4211-ade9-dd087ad571ff" ></video>
+<video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" ></video>
 Figure 2 : Topics strongly associated with Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
 
 ## Overview
@@ -58,15 +58,11 @@ The data were collected from public GitHub repositories using the GitHub REST AP
 
 Programming languages that were widely used in bioinformatics decades ago are not necessarily the most popular today. This shift appears to reflect how the field of bioinformatics has evolved in relation to other research areas.
 
-From 2008 to 2016, C and Java dominated bioinformatics repositories. In 2017, R became the most prominent language, followed by a clear shift toward Python from 2018 onward, a trend that continues today.
+From 2008 to 2016, C and Java dominated bioinformatics repositories. In 2017, R became the most prominent language, followed by a clear shift toward Python from 2018 onward, a trend that continues today. See Figure 1
 
-This transition can be further explained by examining co-occurring topics within bioinformatics repositories. Between 2008 and 2016, dominant topics included genomics, BioJava, databases, and gene ontology. From 2016 to 2018, the focus expanded to genomics, RNA-seq, pipelines, sequencing, and workflows. Between 2018 and 2023, topics such as deep learning, machine learning, and computational biology became increasingly prominent. From 2023 to the present, repositories increasingly emphasize genomics, DNA, NGS, deep learning, sequence alignment, and protein structure.
+This transition can be further explained by examining co-occurring topics within bioinformatics repositories. Between 2008 and 2016, dominant topics included genomics, BioJava, databases, and gene ontology. From 2016 to 2018, the focus expanded to genomics, RNA-seq, pipelines, sequencing, and workflows. Between 2018 and 2023, topics such as deep learning, machine learning, and computational biology became increasingly prominent. From 2023 to the present, repositories increasingly emphasize genomics, DNA, NGS, deep learning, sequence alignment, and protein structure. See Figure 2
 
 Python is the dominant language in machine learning, deep learning, and protein structure analysis, supported by widely adopted libraries such as scikit-learn, PyTorch, TensorFlow, and Keras. This strong connection to rapidly growing fields likely explains Python’s rise in bioinformatics. Notably, Biopython is currently the most starred GitHub repository associated with the “bioinformatics” topic.
-
-![figure 1](results/programming_language_x_bioinformatics.mp4)
-
-![figure 2](results/topics_x_bioinformatics.mp4)
 
 
 ## Conclusion
