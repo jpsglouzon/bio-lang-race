@@ -4,7 +4,7 @@
 > **Python’s rise reflects its central role in modern data-driven and AI-enabled biology.**
 
 <video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" width="352" height="720"></video>
-Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data from 2008 to 2013
+Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
 
 <video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" ></video>
 Figure 2 : Topics strongly associated with Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
@@ -78,6 +78,8 @@ This perspective aligns with broader analyses of global programming language tre
 - Only the primary programming language of each repository was considered. This coarse-grained approach does not capture projects that rely on multiple languages.
 
 - GitHub’s search API limits results to 100 repositories per query. While including only the 100 most starred repositories per year provides a reasonable approximation for identifying popular languages, more comprehensive data could improve statistical precision.
+
+- GitHub launched in 2008, so code-sharing before that has no central hub, making it difficult to analyze trends in Bioinformatics prior to 2008.
 
 - For a more complete picture, other data sources like Stack Overflow, publications, or job postings could be analyzed to capture developer activity and programming language usage.
 

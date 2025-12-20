@@ -4,7 +4,7 @@
 > **Python’s rise reflects its central role in modern data-driven and AI-enabled biology.**
 
 <video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" width="352" height="720"></video>
-Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data from 2008 to 2013
+Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
 
 <video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" ></video>
 Figure 2 : Topics strongly associated with Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
@@ -18,7 +18,7 @@ Using public GitHub repositories tagged with bioinformatics-related topics, we t
 ### Key Findings:
 
 - 2008–2016: **C and Java dominate** bioinformatics tooling
-- 2017:** R becomes the most popular language**
+- 2017: **R becomes the most popular language**
 - 2018–today: **Python clearly leads and remains dominant**
 
 The **rise of Python** closely follows the **growth of machine learning, deep learning, and protein structure analysis**, supported by widely used libraries such as scikit-learn, PyTorch, TensorFlow, and Biopython.
@@ -58,15 +58,11 @@ The data were collected from public GitHub repositories using the GitHub REST AP
 
 Programming languages that were widely used in bioinformatics decades ago are not necessarily the most popular today. This shift appears to reflect how the field of bioinformatics has evolved in relation to other research areas.
 
-From 2008 to 2016, C and Java dominated bioinformatics repositories. In 2017, R became the most prominent language, followed by a clear shift toward Python from 2018 onward, a trend that continues today.
+From 2008 to 2016, C and Java dominated bioinformatics repositories. In 2017, R became the most prominent language, followed by a clear shift toward Python from 2018 onward, a trend that continues today. See Figure 1
 
-This transition can be further explained by examining co-occurring topics within bioinformatics repositories. Between 2008 and 2016, dominant topics included genomics, BioJava, databases, and gene ontology. From 2016 to 2018, the focus expanded to genomics, RNA-seq, pipelines, sequencing, and workflows. Between 2018 and 2023, topics such as deep learning, machine learning, and computational biology became increasingly prominent. From 2023 to the present, repositories increasingly emphasize genomics, DNA, NGS, deep learning, sequence alignment, and protein structure.
+This transition can be further explained by examining co-occurring topics within bioinformatics repositories. Between 2008 and 2016, dominant topics included genomics, BioJava, databases, and gene ontology. From 2016 to 2018, the focus expanded to genomics, RNA-seq, pipelines, sequencing, and workflows. Between 2018 and 2023, topics such as deep learning, machine learning, and computational biology became increasingly prominent. From 2023 to the present, repositories increasingly emphasize genomics, DNA, NGS, deep learning, sequence alignment, and protein structure. See Figure 2
 
 Python is the dominant language in machine learning, deep learning, and protein structure analysis, supported by widely adopted libraries such as scikit-learn, PyTorch, TensorFlow, and Keras. This strong connection to rapidly growing fields likely explains Python’s rise in bioinformatics. Notably, Biopython is currently the most starred GitHub repository associated with the “bioinformatics” topic.
-
-![figure 1](results/programming_language_x_bioinformatics.mp4)
-
-![figure 2](results/topics_x_bioinformatics.mp4)
 
 
 ## Conclusion
@@ -82,6 +78,10 @@ This perspective aligns with broader analyses of global programming language tre
 - Only the primary programming language of each repository was considered. This coarse-grained approach does not capture projects that rely on multiple languages.
 
 - GitHub’s search API limits results to 100 repositories per query. While including only the 100 most starred repositories per year provides a reasonable approximation for identifying popular languages, more comprehensive data could improve statistical precision.
+
+- GitHub launched in 2008, so code-sharing before that has no central hub, making it difficult to analyze trends prior to 2008.
+
+- For a more complete picture, other data sources like Stack Overflow, publications, or job postings could be analyzed to capture developer activity and programming language usage.
 
 ## References
 
