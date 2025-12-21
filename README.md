@@ -3,10 +3,10 @@
 > **Programming language dominance in bioinformatics seems to closely follows methodological shifts in the field.**
 > **Python’s rise reflects its central role in modern data-driven and AI-enabled biology.**
 
-<video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" width="352" height="720"></video>
+<video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" width="352" height="720" type="video/mp4"></video>
 Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
 
-<video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" ></video>
+<video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" type="video/mp4"></video>
 Figure 2 : Topics strongly associated with Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
 
 ## Overview
