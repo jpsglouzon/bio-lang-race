@@ -6,7 +6,7 @@
 <video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" width="352" height="720" type="video/mp4"></video>
 Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
 
-<video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" type="video/mp4"></video>
+<video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" width="352" height="720"  type="video/mp4"></video>
 Figure 2 : Topics strongly associated with Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
 
 ## Overview
@@ -17,9 +17,12 @@ Using public GitHub repositories tagged with bioinformatics-related topics, we t
 
 ### Key Findings:
 
-- 2008–2016: **C and Java dominate** bioinformatics tooling
-- 2017: **R becomes the most popular language**
-- 2018–today: **Python clearly leads and remains dominant**
+- 2008–2016: **Alongside C and Java, Perl and R were heavily used in practical bioinformatics workflows** (sequence parsing, scripting, and statistics), even if they were underrepresented in public GitHub repositories at the time.
+
+- 2016-2017: Python adoption increased rapidly for pipeline development and automation, while **R remained central for statistical analysis and visualization**.
+
+- 2018–present: **Python emerged as the dominant general-purpose language**, with R continuing to play a key role in omics analysis and C/C++ remaining important for performance-critical tools.
+
 
 The **rise of Python** closely follows the **growth of machine learning, deep learning, and protein structure analysis**, supported by widely used libraries such as scikit-learn, PyTorch, TensorFlow, and Biopython.
 
@@ -46,21 +49,33 @@ Learning a programming language is non-trivial, as each language is designed aro
 
 Several publications have traced the historical development of bioinformatics and the role programming languages have played in its success [8–10]. These works highlight milestones such as early tools written in Fortran (e.g., Clustal), C (e.g., MUSCLE), R (e.g., Bioconductor), and Java (e.g., Jalview and BioJava), spanning from the late 1950s through the 2000s.
 
-Based on these studies [8–10], blog posts [11–12], and even answers from modern chatbots, there is broad agreement that Python and R are currently the most popular programming languages in bioinformatics, without dismissing the continued relevance of C/C++, Java, or MATLAB. However, this raises an important question: Has this always been the case?
+Based on these studies [8–10], blog posts [11–14], and even answers from modern chatbots, there is broad agreement that Python and R are currently the most popular programming languages in bioinformatics, without dismissing the continued relevance of C/C++, Java, or MATLAB. However, this raises an important question: Has this always been the case?
 Looking back in time suggests that the ranking of popular languages has changed significantly, highlighting the importance of understanding how and why such shifts occur. Studying these dynamics can help practitioners better anticipate future trends.
 
 ## Method
 
-This analysis contributes to understanding how programming language popularity in bioinformatics has changed over time (Figure 1). We propose a bar chart race visualization that tracks language usage from 2008 to 2025.
-The data were collected from public GitHub repositories using the GitHub REST API (Figure 2). Repositories were identified using bioinformatics-related topics, and the number of stars was used as a proxy for popularity. Each repository was associated with its primary programming language and relevant bioinformatics topics.
+This analysis contributes to understanding how programming language popularity in bioinformatics has changed over time. We propose a bar chart race [15] visualization that tracks language usage from 2008 to 2025.
+
+The data were collected from public GitHub repositories using the GitHub Search API. Bioinformatics repositories were identified, and GitHub star counts were used as a proxy for popularity. In practice, repositories were selected using the following criteria:
+
+- `stars:10..5000`. An upper bound of 5,000 stars was applied because one of the most highly starred bioinformatics repositories, Biopython, typically falls within the 4k–5k range. Plotly was excluded and treated as an outlier due to its substantially higher star count (~24k).
+
+- `topic: bioinformatics`. Only repositories explicitly tagged with bioinformatics in their GitHub topics were included.
+
+- `pushed: [year]-01-01..[year]-12-31`. The pushed field represents the date of the most recent commit. Years from 2008 to 2025 were selected to cover the full period of interest.
+
+For each year, only the top 100 repositories ranked by star count were retained. Star distributions exhibit a long-tail pattern, where a small fraction of repositories accumulate most of the stars, while the majority have fewer than 50. Consequently, a limited number of repositories largely explains the observed popularity of programming languages. Including additional repositories is unlikely to significantly affect the cumulative star counts.
+
+<img src="./results/star_distrib.png" alt="Star distribution" width="600"/>
+Figure 3 : Star histogram.
 
 ## Results
 
 Programming languages that were widely used in bioinformatics decades ago are not necessarily the most popular today. This shift appears to reflect how the field of bioinformatics has evolved in relation to other research areas.
 
-From 2008 to 2016, C and Java dominated bioinformatics repositories. In 2017, R became the most prominent language, followed by a clear shift toward Python from 2018 onward, a trend that continues today. See Figure 1
+From 2008 to 2016, C and Java dominated bioinformatics repositories. In 2017, R became the most prominent language, followed by a clear shift toward Python from 2018 onward, a trend that continues today (See Figure 1).
 
-This transition can be further explained by examining co-occurring topics within bioinformatics repositories. Between 2008 and 2016, dominant topics included genomics, BioJava, databases, and gene ontology. From 2016 to 2018, the focus expanded to genomics, RNA-seq, pipelines, sequencing, and workflows. Between 2018 and 2023, topics such as deep learning, machine learning, and computational biology became increasingly prominent. From 2023 to the present, repositories increasingly emphasize genomics, DNA, NGS, deep learning, sequence alignment, and protein structure. See Figure 2
+This transition can be further explained by examining co-occurring topics within bioinformatics repositories. Between 2008 and 2016, dominant topics included genomics, BioJava, databases, and gene ontology. From 2016 to 2018, the focus expanded to genomics, RNA-seq, pipelines, sequencing, and workflows. Between 2018 and 2023, topics such as deep learning, machine learning, and computational biology became increasingly prominent. From 2023 to the present, repositories increasingly emphasize genomics, DNA, NGS, deep learning, sequence alignment, and protein structure (See Figure 2).
 
 Python is the dominant language in machine learning, deep learning, and protein structure analysis, supported by widely adopted libraries such as scikit-learn, PyTorch, TensorFlow, and Keras. This strong connection to rapidly growing fields likely explains Python’s rise in bioinformatics. Notably, Biopython is currently the most starred GitHub repository associated with the “bioinformatics” topic.
 
@@ -82,6 +97,17 @@ This perspective aligns with broader analyses of global programming language tre
 - GitHub launched in 2008, so code-sharing before that has no central hub, making it difficult to analyze trends in Bioinformatics prior to 2008.
 
 - For a more complete picture, other data sources like Stack Overflow, publications, or job postings could be analyzed to capture developer activity and programming language usage.
+
+## Thank you for your feedback 
+
+BioStar forum :
+- [Genomax](https://www.biostars.org/u/18713/)
+- [Alex Reynolds](https://www.biostars.org/u/20/)
+- [Rob](https://www.biostars.org/u/1149/)
+- [Genomax](https://www.biostars.org/u/18713/)
+- [Dr.Omics](https://www.biostars.org/u/152314/)
+- [newbioinfograd2323](https://www.biostars.org/u/148483/)
+- [Istvan Albert](https://www.biostars.org/u/2/)
 
 ## References
 
@@ -112,3 +138,5 @@ This perspective aligns with broader analyses of global programming language tre
 [13] https://bioinformatics.ccr.cancer.gov/btep/r-or-python-which-should-i-learn/
 
 [14] https://bioinformatics.ccr.cancer.gov/docs/intro-to-bioinformatics-ss2023/Lesson5/R_and_Python/
+
+[15] https://github.com/dexplo/bar_chart_race
