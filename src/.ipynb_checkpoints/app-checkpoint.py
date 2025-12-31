@@ -19,7 +19,7 @@ st.markdown("### Analysis of GitHub Repositories (2013-2025)")
 st.markdown("For the github repo: [https://github.com/jpsglouzon/bio-lang-race](https://github.com/jpsglouzon/bio-lang-race)")
 st.markdown("Let's chat: [https://www.biostars.org/p/9616968/](https://www.biostars.org/p/9616968/)")
 
-# Load data
+# # Load data
 # topic='bioinformatics'
 # list_of_repos_path='../data/list_of_repos.csv' 
 # stats_repo_pl_vs_topic_df_path='../data/programming_language_x_'+topic+'.csv'
@@ -32,9 +32,9 @@ with st.spinner("Loading data ...", show_time=False):
     stats_repo_topics_vs_topic_df_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/topics_x_bioinformatics.csv?raw=true'
 
     # Load datasets
-    df_repos = pd.read_csv(list_of_repos_path, sep=',')
-    df_lang = pd.read_csv(stats_repo_pl_vs_topic_df_path, sep=',')
-    df_topics = pd.read_csv(stats_repo_topics_vs_topic_df_path, sep=',')    
+    df_repos = pd.read_csv(list_of_repos_path, sep=';')
+    df_lang = pd.read_csv(stats_repo_pl_vs_topic_df_path, sep=';')
+    df_topics = pd.read_csv(stats_repo_topics_vs_topic_df_path, sep=';')    
 
 # Convert topics column from string representation to actual list if needed
 if 'topics' in df_repos.columns and isinstance(df_repos['topics'].iloc[0], str):
