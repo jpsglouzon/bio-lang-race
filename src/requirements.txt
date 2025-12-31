@@ -1,0 +1,2 @@
+plotly==5.9.0
+datetime==5.5.0
