@@ -1,0 +1,496 @@
+year;stars;forks;language
+2013;0;0;AMPL
+2016;0;0;AMPL
+2017;0;0;AMPL
+2018;0;0;AMPL
+2019;0;0;AMPL
+2020;0;0;AMPL
+2021;0;0;AMPL
+2022;0;0;AMPL
+2023;0;0;AMPL
+2024;489;88;AMPL
+2025;0;0;AMPL
+2013;94;22;C
+2016;0;0;C
+2017;117;12;C
+2018;45;11;C
+2019;277;40;C
+2020;506;87;C
+2021;954;208;C
+2022;1085;247;C
+2023;314;76;C
+2024;916;134;C
+2025;10721;2417;C
+2013;0;0;C#
+2016;0;0;C#
+2017;0;0;C#
+2018;155;49;C#
+2019;0;0;C#
+2020;0;0;C#
+2021;0;0;C#
+2022;0;0;C#
+2023;0;0;C#
+2024;0;0;C#
+2025;0;0;C#
+2013;0;0;C++
+2016;0;0;C++
+2017;32;5;C++
+2018;57;42;C++
+2019;301;39;C++
+2020;677;104;C++
+2021;1735;328;C++
+2022;1223;189;C++
+2023;2149;495;C++
+2024;1927;330;C++
+2025;7870;1509;C++
+2013;0;0;CSS
+2016;0;0;CSS
+2017;15;2;CSS
+2018;0;0;CSS
+2019;0;0;CSS
+2020;0;0;CSS
+2021;0;0;CSS
+2022;40;48;CSS
+2023;0;0;CSS
+2024;74;19;CSS
+2025;0;0;CSS
+2013;0;0;Common Lisp
+2016;0;0;Common Lisp
+2017;0;0;Common Lisp
+2018;0;0;Common Lisp
+2019;54;11;Common Lisp
+2020;0;0;Common Lisp
+2021;0;0;Common Lisp
+2022;0;0;Common Lisp
+2023;0;0;Common Lisp
+2024;0;0;Common Lisp
+2025;0;0;Common Lisp
+2013;0;0;Cuda
+2016;0;0;Cuda
+2017;0;0;Cuda
+2018;0;0;Cuda
+2019;0;0;Cuda
+2020;0;0;Cuda
+2021;0;0;Cuda
+2022;29;4;Cuda
+2023;0;0;Cuda
+2024;0;0;Cuda
+2025;0;0;Cuda
+2013;0;0;Cython
+2016;0;0;Cython
+2017;0;0;Cython
+2018;0;0;Cython
+2019;0;0;Cython
+2020;0;0;Cython
+2021;0;0;Cython
+2022;0;0;Cython
+2023;0;0;Cython
+2024;0;0;Cython
+2025;1294;369;Cython
+2013;0;0;D
+2016;0;0;D
+2017;0;0;D
+2018;15;6;D
+2019;0;0;D
+2020;0;0;D
+2021;49;19;D
+2022;0;0;D
+2023;0;0;D
+2024;599;104;D
+2025;0;0;D
+2013;0;0;Dockerfile
+2016;0;0;Dockerfile
+2017;0;0;Dockerfile
+2018;0;0;Dockerfile
+2019;0;0;Dockerfile
+2020;0;0;Dockerfile
+2021;0;0;Dockerfile
+2022;0;0;Dockerfile
+2023;59;11;Dockerfile
+2024;0;0;Dockerfile
+2025;765;261;Dockerfile
+2013;0;0;Go
+2016;14;2;Go
+2017;0;0;Go
+2018;30;5;Go
+2019;40;10;Go
+2020;121;20;Go
+2021;55;36;Go
+2022;0;0;Go
+2023;89;20;Go
+2024;1835;147;Go
+2025;4949;554;Go
+2013;0;0;Groovy
+2016;12;4;Groovy
+2017;0;0;Groovy
+2018;39;7;Groovy
+2019;0;0;Groovy
+2020;0;0;Groovy
+2021;0;0;Groovy
+2022;0;0;Groovy
+2023;75;19;Groovy
+2024;142;42;Groovy
+2025;3252;758;Groovy
+2013;0;0;HTML
+2016;0;0;HTML
+2017;63;29;HTML
+2018;72;27;HTML
+2019;148;63;HTML
+2020;200;75;HTML
+2021;254;45;HTML
+2022;246;73;HTML
+2023;168;47;HTML
+2024;840;220;HTML
+2025;900;142;HTML
+2013;0;0;Haskell
+2016;0;0;Haskell
+2017;0;0;Haskell
+2018;0;0;Haskell
+2019;0;0;Haskell
+2020;0;0;Haskell
+2021;0;0;Haskell
+2022;32;1;Haskell
+2023;0;0;Haskell
+2024;0;0;Haskell
+2025;0;0;Haskell
+2013;0;0;Java
+2016;120;19;Java
+2017;32;13;Java
+2018;53;22;Java
+2019;0;0;Java
+2020;0;0;Java
+2021;159;61;Java
+2022;34;14;Java
+2023;116;20;Java
+2024;116;35;Java
+2025;3591;1327;Java
+2013;0;0;JavaScript
+2016;0;0;JavaScript
+2017;10;3;JavaScript
+2018;135;24;JavaScript
+2019;554;121;JavaScript
+2020;0;0;JavaScript
+2021;172;28;JavaScript
+2022;121;36;JavaScript
+2023;624;77;JavaScript
+2024;215;28;JavaScript
+2025;4010;1167;JavaScript
+2013;0;0;Julia
+2016;0;0;Julia
+2017;61;30;Julia
+2018;32;11;Julia
+2019;0;0;Julia
+2020;71;7;Julia
+2021;21;8;Julia
+2022;88;27;Julia
+2023;310;81;Julia
+2024;0;0;Julia
+2025;514;42;Julia
+2013;0;0;Jupyter Notebook
+2016;16;11;Jupyter Notebook
+2017;137;65;Jupyter Notebook
+2018;141;83;Jupyter Notebook
+2019;308;78;Jupyter Notebook
+2020;264;73;Jupyter Notebook
+2021;803;181;Jupyter Notebook
+2022;169;28;Jupyter Notebook
+2023;430;80;Jupyter Notebook
+2024;4039;942;Jupyter Notebook
+2025;5722;1126;Jupyter Notebook
+2013;0;0;Kotlin
+2016;0;0;Kotlin
+2017;0;0;Kotlin
+2018;0;0;Kotlin
+2019;0;0;Kotlin
+2020;0;0;Kotlin
+2021;0;0;Kotlin
+2022;0;0;Kotlin
+2023;164;10;Kotlin
+2024;0;0;Kotlin
+2025;0;0;Kotlin
+2013;0;0;Lua
+2016;0;0;Lua
+2017;0;0;Lua
+2018;0;0;Lua
+2019;0;0;Lua
+2020;0;0;Lua
+2021;84;32;Lua
+2022;0;0;Lua
+2023;0;0;Lua
+2024;0;0;Lua
+2025;0;0;Lua
+2013;0;0;MATLAB
+2016;0;0;MATLAB
+2017;0;0;MATLAB
+2018;0;0;MATLAB
+2019;24;9;MATLAB
+2020;0;0;MATLAB
+2021;0;0;MATLAB
+2022;0;0;MATLAB
+2023;0;0;MATLAB
+2024;0;0;MATLAB
+2025;0;0;MATLAB
+2013;0;0;Makefile
+2016;0;0;Makefile
+2017;0;0;Makefile
+2018;0;0;Makefile
+2019;0;0;Makefile
+2020;0;0;Makefile
+2021;0;0;Makefile
+2022;22;13;Makefile
+2023;51;53;Makefile
+2024;70;3;Makefile
+2025;0;0;Makefile
+2013;0;0;Nextflow
+2016;0;0;Nextflow
+2017;0;0;Nextflow
+2018;52;26;Nextflow
+2019;44;13;Nextflow
+2020;0;0;Nextflow
+2021;0;0;Nextflow
+2022;162;60;Nextflow
+2023;58;49;Nextflow
+2024;0;0;Nextflow
+2025;528;498;Nextflow
+2013;0;0;Nim
+2016;0;0;Nim
+2017;0;0;Nim
+2018;21;0;Nim
+2019;0;0;Nim
+2020;96;7;Nim
+2021;0;0;Nim
+2022;0;0;Nim
+2023;0;0;Nim
+2024;0;0;Nim
+2025;0;0;Nim
+2013;0;0;OpenEdge ABL
+2016;0;0;OpenEdge ABL
+2017;0;0;OpenEdge ABL
+2018;0;0;OpenEdge ABL
+2019;0;0;OpenEdge ABL
+2020;262;104;OpenEdge ABL
+2021;0;0;OpenEdge ABL
+2022;0;0;OpenEdge ABL
+2023;0;0;OpenEdge ABL
+2024;0;0;OpenEdge ABL
+2025;0;0;OpenEdge ABL
+2013;0;0;PHP
+2016;0;0;PHP
+2017;0;0;PHP
+2018;0;0;PHP
+2019;0;0;PHP
+2020;0;0;PHP
+2021;0;0;PHP
+2022;0;0;PHP
+2023;53;30;PHP
+2024;0;0;PHP
+2025;0;0;PHP
+2013;0;0;Perl
+2016;0;0;Perl
+2017;0;0;Perl
+2018;13;7;Perl
+2019;242;127;Perl
+2020;110;24;Perl
+2021;151;48;Perl
+2022;71;23;Perl
+2023;266;75;Perl
+2024;117;34;Perl
+2025;557;117;Perl
+2013;0;0;Perl 6
+2016;0;0;Perl 6
+2017;0;0;Perl 6
+2018;48;13;Perl 6
+2019;0;0;Perl 6
+2020;0;0;Perl 6
+2021;0;0;Perl 6
+2022;0;0;Perl 6
+2023;0;0;Perl 6
+2024;0;0;Perl 6
+2025;0;0;Perl 6
+2013;0;0;Prolog
+2016;0;0;Prolog
+2017;0;0;Prolog
+2018;0;0;Prolog
+2019;0;0;Prolog
+2020;0;0;Prolog
+2021;0;0;Prolog
+2022;0;0;Prolog
+2023;157;17;Prolog
+2024;0;0;Prolog
+2025;0;0;Prolog
+2013;0;0;Python
+2016;33;16;Python
+2017;335;99;Python
+2018;655;280;Python
+2019;367;155;Python
+2020;1798;456;Python
+2021;1985;476;Python
+2022;3637;819;Python
+2023;3409;730;Python
+2024;6065;1358;Python
+2025;38406;9256;Python
+2013;0;0;R
+2016;0;0;R
+2017;587;217;R
+2018;257;101;R
+2019;115;45;R
+2020;175;62;R
+2021;375;125;R
+2022;214;58;R
+2023;306;68;R
+2024;1108;346;R
+2025;1409;488;R
+2013;0;0;Ruby
+2016;0;0;Ruby
+2017;85;11;Ruby
+2018;0;0;Ruby
+2019;0;0;Ruby
+2020;0;0;Ruby
+2021;0;0;Ruby
+2022;0;0;Ruby
+2023;98;29;Ruby
+2024;0;0;Ruby
+2025;0;0;Ruby
+2013;0;0;Rust
+2016;0;0;Rust
+2017;0;0;Rust
+2018;0;0;Rust
+2019;15;1;Rust
+2020;129;4;Rust
+2021;0;0;Rust
+2022;44;5;Rust
+2023;100;21;Rust
+2024;227;23;Rust
+2025;427;16;Rust
+2013;0;0;Scala
+2016;0;0;Scala
+2017;0;0;Scala
+2018;0;0;Scala
+2019;0;0;Scala
+2020;20;3;Scala
+2021;0;0;Scala
+2022;20;16;Scala
+2023;0;0;Scala
+2024;77;11;Scala
+2025;2087;692;Scala
+2013;0;0;Shell
+2016;0;0;Shell
+2017;98;33;Shell
+2018;0;0;Shell
+2019;49;9;Shell
+2020;414;119;Shell
+2021;94;27;Shell
+2022;24;12;Shell
+2023;304;35;Shell
+2024;287;58;Shell
+2025;3590;4250;Shell
+2013;0;0;Standard ML
+2016;0;0;Standard ML
+2017;21;9;Standard ML
+2018;0;0;Standard ML
+2019;0;0;Standard ML
+2020;0;0;Standard ML
+2021;0;0;Standard ML
+2022;0;0;Standard ML
+2023;0;0;Standard ML
+2024;0;0;Standard ML
+2025;0;0;Standard ML
+2013;0;0;Svelte
+2016;0;0;Svelte
+2017;0;0;Svelte
+2018;0;0;Svelte
+2019;0;0;Svelte
+2020;0;0;Svelte
+2021;0;0;Svelte
+2022;0;0;Svelte
+2023;0;0;Svelte
+2024;105;15;Svelte
+2025;0;0;Svelte
+2013;0;0;TeX
+2016;74;12;TeX
+2017;0;0;TeX
+2018;0;0;TeX
+2019;11;7;TeX
+2020;205;34;TeX
+2021;0;0;TeX
+2022;0;0;TeX
+2023;0;0;TeX
+2024;72;5;TeX
+2025;0;0;TeX
+2013;0;0;TypeScript
+2016;0;0;TypeScript
+2017;0;0;TypeScript
+2018;0;0;TypeScript
+2019;0;0;TypeScript
+2020;0;0;TypeScript
+2021;0;0;TypeScript
+2022;18;5;TypeScript
+2023;0;0;TypeScript
+2024;79;19;TypeScript
+2025;0;0;TypeScript
+2013;0;0;Vim script
+2016;0;0;Vim script
+2017;16;2;Vim script
+2018;0;0;Vim script
+2019;0;0;Vim script
+2020;0;0;Vim script
+2021;0;0;Vim script
+2022;0;0;Vim script
+2023;0;0;Vim script
+2024;0;0;Vim script
+2025;0;0;Vim script
+2013;0;0;Vue
+2016;0;0;Vue
+2017;0;0;Vue
+2018;0;0;Vue
+2019;0;0;Vue
+2020;0;0;Vue
+2021;0;0;Vue
+2022;30;3;Vue
+2023;0;0;Vue
+2024;0;0;Vue
+2025;0;0;Vue
+2013;0;0;Zig
+2016;0;0;Zig
+2017;0;0;Zig
+2018;0;0;Zig
+2019;0;0;Zig
+2020;0;0;Zig
+2021;20;0;Zig
+2022;0;0;Zig
+2023;0;0;Zig
+2024;0;0;Zig
+2025;0;0;Zig
+2013;0;0;mupad
+2016;0;0;mupad
+2017;0;0;mupad
+2018;0;0;mupad
+2019;0;0;mupad
+2020;0;0;mupad
+2021;0;0;mupad
+2022;0;0;mupad
+2023;0;0;mupad
+2024;99;16;mupad
+2025;0;0;mupad
+2013;0;0;q
+2016;0;0;q
+2017;0;0;q
+2018;0;0;q
+2019;0;0;q
+2020;0;0;q
+2021;0;0;q
+2022;0;0;q
+2023;0;0;q
+2024;96;50;q
+2025;0;0;q
+2013;0;0;wdl
+2016;0;0;wdl
+2017;0;0;wdl
+2018;0;0;wdl
+2019;0;0;wdl
+2020;0;0;wdl
+2021;52;20;wdl
+2022;0;0;wdl
+2023;0;0;wdl
+2024;0;0;wdl
+2025;0;0;wdl
