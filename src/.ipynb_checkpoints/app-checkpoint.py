@@ -21,10 +21,15 @@ st.markdown("Let's chat: [https://www.biostars.org/p/9616968/](https://www.biost
 
 ### Reference Repository:
    
-topic='bioinformatics'
-list_of_repos_path='../data/list_of_repos.csv'
-stats_repo_pl_vs_topic_df_path='../data/programming_language_x_'+topic+'.csv'
-stats_repo_topics_vs_topic_df_path='../data/topics_x_'+topic+'.csv'
+# topic='bioinformatics'
+# list_of_repos_path='../data/list_of_repos.csv' 
+# stats_repo_pl_vs_topic_df_path='../data/programming_language_x_'+topic+'.csv'
+# stats_repo_topics_vs_topic_df_path='../data/topics_x_'+topic+'.csv'
+
+list_of_repos_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/list_of_repos.csv' 
+stats_repo_pl_vs_topic_df_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/programming_language_x_bioinformatics.csv'
+stats_repo_topics_vs_topic_df_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/topics_x_bioinformatics.csv'
+
 
 # Load datasets
 df_repos = pd.read_csv(list_of_repos_path)
