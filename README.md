@@ -1,13 +1,16 @@
-# Most Popular Programming Languages in Bioinformatics
+# Programming language trends in bioinformatics (2013–2025)
 
 > **Programming language dominance in bioinformatics seems to closely follows methodological shifts in the field.**
 > **Python’s rise reflects its central role in modern data-driven and AI-enabled biology.**
 
-<video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" width="352" height="720" type="video/mp4"></video>
-Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
+Check out the web app to explore programming languages trens in Bioinformatics:
+[https://jpsglouzon-bio-lang-race-app.streamlit.app/](https://jpsglouzon-bio-lang-race-app.streamlit.app/)
 
-<video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" width="352" height="720"  type="video/mp4"></video>
-Figure 2 : Topics strongly associated with Bioinformatics from 2008 to 2025. No data available from 2008 to 2013
+<video src="https://github.com/user-attachments/assets/67364e34-0a33-4d55-9ac6-063bd92fb29c" type="video/mp4"></video>
+Figure 1 : Most popular (most starred) programming languages in Bioinformatics from 2013 to 2025. No data available from 2008 to 2013
+
+<video src="https://github.com/user-attachments/assets/ac869678-a5fd-4077-bf90-baaaee9cae53" type="video/mp4"></video>
+Figure 2 : Topics strongly associated with Bioinformatics from 2013 to 2025. No data available from 2008 to 2013
 
 ## Overview
 
@@ -98,9 +101,9 @@ This perspective aligns with broader analyses of global programming language tre
 
 - For a more complete picture, other data sources like Stack Overflow, publications, or job postings could be analyzed to capture developer activity and programming language usage.
 
-## Thank you for your feedback 
+## Thank you 
 
-BioStar forum :
+From BioStar forum :
 - [Genomax](https://www.biostars.org/u/18713/)
 - [Alex Reynolds](https://www.biostars.org/u/20/)
 - [Rob](https://www.biostars.org/u/1149/)
@@ -108,6 +111,10 @@ BioStar forum :
 - [Dr.Omics](https://www.biostars.org/u/152314/)
 - [newbioinfograd2323](https://www.biostars.org/u/148483/)
 - [Istvan Albert](https://www.biostars.org/u/2/)
+
+## How to cite
+
+
 
 ## References
 
