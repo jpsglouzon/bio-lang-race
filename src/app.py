@@ -20,16 +20,16 @@ st.markdown("Github repo: [https://github.com/jpsglouzon/bio-lang-race](https://
 st.markdown("Let's chat: [Biostar](https://www.biostars.org/p/9616968/) & [r/bioinformatics](https://www.reddit.com/r/bioinformatics/comments/1q1ulir/analyzing_15_years_of_bioinformatics_how/)")
 
 # # Load data
-topic='bioinformatics'
-list_of_repos_path='../data/list_of_repos_'+topic+'.csv'
-stats_repo_pl_vs_topic_df_path='../data/programming_language_x_'+topic+'.csv'
-stats_repo_topics_vs_topic_df_path='../data/topics_x_'+topic+'.csv'
+# topic='bioinformatics'
+# list_of_repos_path='../data/list_of_repos_'+topic+'.csv'
+# stats_repo_pl_vs_topic_df_path='../data/programming_language_x_'+topic+'.csv'
+# stats_repo_topics_vs_topic_df_path='../data/topics_x_'+topic+'.csv'
 
 with st.spinner("Loading data ...", show_time=False):
     
-    #list_of_repos_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/list_of_repos_bioinformatics.csv?raw=true' 
-    #stats_repo_pl_vs_topic_df_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/programming_language_x_bioinformatics.csv?raw=true'
-    #stats_repo_topics_vs_topic_df_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/topics_x_bioinformatics.csv?raw=true'
+    list_of_repos_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/list_of_repos_bioinformatics.csv?raw=true' 
+    stats_repo_pl_vs_topic_df_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/programming_language_x_bioinformatics.csv?raw=true'
+    stats_repo_topics_vs_topic_df_path='https://github.com/jpsglouzon/bio-lang-race/blob/main/data/topics_x_bioinformatics.csv?raw=true'
 
     # Load datasets
     df_repos = pd.read_csv(list_of_repos_path, sep=';',header=0,on_bad_lines='skip')
