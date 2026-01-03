@@ -20,7 +20,7 @@ year;stars;forks;language
 2022;1085;247;C
 2023;314;76;C
 2024;916;134;C
-2025;10721;2417;C
+2025;10723;2418;C
 2013;0;0;C#
 2016;0;0;C#
 2017;0;0;C#
@@ -39,10 +39,10 @@ year;stars;forks;language
 2019;301;39;C++
 2020;677;104;C++
 2021;1735;328;C++
-2022;1223;189;C++
+2022;1225;189;C++
 2023;2149;495;C++
 2024;1927;330;C++
-2025;7870;1509;C++
+2025;7874;1510;C++
 2013;0;0;CSS
 2016;0;0;CSS
 2017;15;2;CSS
@@ -130,7 +130,7 @@ year;stars;forks;language
 2022;0;0;Groovy
 2023;75;19;Groovy
 2024;142;42;Groovy
-2025;3252;758;Groovy
+2025;3253;758;Groovy
 2013;0;0;HTML
 2016;0;0;HTML
 2017;63;29;HTML
@@ -195,8 +195,8 @@ year;stars;forks;language
 2021;803;181;Jupyter Notebook
 2022;169;28;Jupyter Notebook
 2023;430;80;Jupyter Notebook
-2024;4039;942;Jupyter Notebook
-2025;5722;1126;Jupyter Notebook
+2024;4039;943;Jupyter Notebook
+2025;5728;1127;Jupyter Notebook
 2013;0;0;Kotlin
 2016;0;0;Kotlin
 2017;0;0;Kotlin
@@ -237,7 +237,7 @@ year;stars;forks;language
 2019;0;0;Makefile
 2020;0;0;Makefile
 2021;0;0;Makefile
-2022;22;13;Makefile
+2022;23;13;Makefile
 2023;51;53;Makefile
 2024;70;3;Makefile
 2025;0;0;Makefile
@@ -295,7 +295,7 @@ year;stars;forks;language
 2022;71;23;Perl
 2023;266;75;Perl
 2024;117;34;Perl
-2025;557;117;Perl
+2025;558;117;Perl
 2013;0;0;Perl 6
 2016;0;0;Perl 6
 2017;0;0;Perl 6
@@ -325,10 +325,10 @@ year;stars;forks;language
 2019;367;155;Python
 2020;1798;456;Python
 2021;1985;476;Python
-2022;3637;819;Python
-2023;3409;730;Python
-2024;6065;1358;Python
-2025;38406;9256;Python
+2022;3638;818;Python
+2023;3409;729;Python
+2024;6066;1358;Python
+2025;38495;9232;Python
 2013;0;0;R
 2016;0;0;R
 2017;587;217;R
@@ -339,7 +339,7 @@ year;stars;forks;language
 2022;214;58;R
 2023;306;68;R
 2024;1108;346;R
-2025;1409;488;R
+2025;1410;488;R
 2013;0;0;Ruby
 2016;0;0;Ruby
 2017;85;11;Ruby
@@ -361,7 +361,7 @@ year;stars;forks;language
 2022;44;5;Rust
 2023;100;21;Rust
 2024;227;23;Rust
-2025;427;16;Rust
+2025;429;16;Rust
 2013;0;0;Scala
 2016;0;0;Scala
 2017;0;0;Scala
@@ -378,12 +378,12 @@ year;stars;forks;language
 2017;98;33;Shell
 2018;0;0;Shell
 2019;49;9;Shell
-2020;414;119;Shell
+2020;415;119;Shell
 2021;94;27;Shell
 2022;24;12;Shell
 2023;304;35;Shell
 2024;287;58;Shell
-2025;3590;4250;Shell
+2025;1823;557;Shell
 2013;0;0;Standard ML
 2016;0;0;Standard ML
 2017;21;9;Standard ML
